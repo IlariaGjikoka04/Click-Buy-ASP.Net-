@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Click_Buy1.Models.AddToCart>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center mb-4">Your Shopping Cart</h1>
+
+<table class="table table-bordered text-center">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.ImageUrl)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+            <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>
+                    <img src="@item.ImageUrl" alt="@item.Name" class="img-fluid rounded" style="max-width: 100px; max-height: 100px;" />
+                </td>
+                <td>$@Html.DisplayFor(modelItem => item.Price)</td>
+                <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="text-end">
+    <h4>Total: $@Model.Sum(item => item.Price * item.Quantity)</h4>
+</div>
+
+<!-- Butoni "Complete Order" -->
+<div class="text-center mt-4">
+    <form>
+        <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#emailModal">
+            Complete Order
+        </button>
+    </form>
+</div>
+
+
+<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="emailModalLabel">Enter Your Email</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="email" id="emailInput" class="form-control" placeholder="Enter your email" required />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="submitOrder()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "NewCollection";
+}
+@model NewCollection
+<div class="container py-5">
+    <div class="row">
+        <!-- Foto -->
+        <div class="col-md-6">
+            <img src="@Model.ImageUrl" alt="@Model.Name" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+            <img src="@Model.ImageUrl2" alt="@Model.Name" class="img-fluid rounded">
+        </div>
+
+        <!-- Detajet e Produktit -->
+        <div class="col-md-6">
+            <h2 class="fw-bold">@Model.Name</h2>
+            <p class="text-muted">@Model.Price.ToString("C")</p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+                <span class="fw-bold">Sizes:</span>
+                <button class="btn btn-outline-secondary btn-sm">XS</button>
+                <button class="btn btn-outline-secondary btn-sm">S</button>
+                <button class="btn btn-outline-secondary btn-sm">M</button>
+                <button class="btn btn-outline-secondary btn-sm">L</button>
+            </div>
+            <button class="btn btn-success w-100">Add to Basket</button>
+        </div>
+    </div>
+</div>

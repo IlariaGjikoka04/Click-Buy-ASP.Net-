@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "SweatersANDcardigans";
+}
+@model List<SweatersANDcardigans>
+
+<div class="container mt-4">
+    <h1 class="text-center">Sweaters and Cardigans</h1>
+
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <!-- Imazhi i produktit -->
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+
+                    <!-- Përmbajtja e kartës -->
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text text-success">$@product.Price</p>
+                        <p class="card-text">Standard size</p>
+                        <!-- Ikona e zemrës poshtë çmimit -->
+                        <i class="bi bi-heart fs-4 heart-icon text-muted"
+                           data-id="@product.Id"
+                           data-name="@product.Name"
+                           data-price="@product.Price"
+                           data-image="@product.ImageUrl"
+                           style="cursor: pointer;"></i>
+
+                        <input type="hidden" value="@product.Id" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>

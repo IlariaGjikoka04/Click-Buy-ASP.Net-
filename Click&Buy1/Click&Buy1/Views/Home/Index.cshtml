@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-fluid">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Photos/Newcollection1.1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>New Collection</h5>
+                    <a href="@Url.Action("NewCollection", "Home")" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="~/Photos/NewCollection2.1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>New Collection</h5>
+                    <a href="@Url.Action("NewCollection2", "Home")" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<!-- Shop By Categories Section -->
+<div class="shop-categories mt-5">
+    <div class="container-fluid px-0">
+        <h2 class="text-center mb-4">Shop By Categories</h2>
+        <div class="row g-0">
+            <!-- Category 1 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
+                <a href="@Url.Action("Jackets", "Home")" class="text-decoration-none">
+                    <div class="category-card">
+                        <img src="~/Photos/amin-zabardast-KdEupg12h1Y-unsplash.jpg" alt="Jackets and Blazers">
+                        <div class="overlay">
+                            <h5 class="text-center">JACKETS AND BLAZERS</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Category 2 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
+                <a href="@Url.Action("Dresses", "Home")" class="text-decoration-none">
+                    <div class="category-card">
+                        <img src="/Photos/dress.jpg" alt="Dresses">
+                        <div class="overlay">
+                            <h5>DRESSES</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Category 3 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
+                <a href="@Url.Action("Jeans", "Home")" class="text-decoration-none">
+                <div class="category-card">
+                    <img src="/Photos/jeans.jpg" alt="Jeans">
+                    <div class="overlay">
+                        <h5>JEANS</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- Category 4 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
+                <a href="@Url.Action("SweatersANDcardigans", "Home")" class="text-decoration-none">
+                <div class="category-card text-center">
+                    <img src="/Photos/Sweaters.jpg" alt="Sweaters and Cardigans">
+                    <div class="overlay">
+                        <h5>SWEATERS AND CARDIGANS</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- Category 5 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
+                <a href="@Url.Action("Trousers", "Home")" class="text-decoration-none">
+                <div class="category-card">
+                    <img src="/Photos/trousers.jpg" alt="Trousers">
+                    <div class="overlay">
+                        <h5>TROUSERS</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- Category 6 -->
+            <div class="col-lg-2 col-md-6 col-sm-12">
+                <a href="@Url.Action("Tshirts", "Home")" class="text-decoration-none">
+                <div class="category-card">
+                    <img src="/Photos/tshirts.jpg"T-shirts">
+                    <div class="overlay">
+                        <h5>T-SHIRTS</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

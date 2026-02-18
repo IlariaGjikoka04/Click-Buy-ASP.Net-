@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Dresses";
+}
+@model List<Product1>
+
+<div class="container mt-4">
+    <h1 class="text-center">Dresses</h1>
+     @if (User.IsInRole("Admin"))
+    {
+        <a asp-controller="Product1" asp-action="Index" class="text-decoration-none">Add Product</a>
+    }
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <!-- Imazhi i produktit -->
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                    <!-- Përmbajtja e kartës -->
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text text-success">$@product.Price</p>
+                        <p class="card-text">Standard size</p>
+                        <!-- Ikona e zemrës -->
+                        <i class="bi bi-heart fs-4 heart-icon text-muted"
+                           data-id="@product.Id"
+                           data-name="@product.Name"
+                           data-price="@product.Price"
+                           data-image="@product.ImageUrl"
+                           style="cursor: pointer;"></i>
+                        <input type="hidden" value="@product.Id" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

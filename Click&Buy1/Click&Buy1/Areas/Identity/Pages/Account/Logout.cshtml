@@ -1,0 +1,24 @@
+﻿@page
+@model LogoutModel
+@{
+    ViewData["Title"] = "Log out";
+    ViewData["BodyClass"] = "login-page";
+}
+<div class="d-flex justify-content-center align-items-center">
+    <div class="text-center transparent-box">
+        <h1>@ViewData["Title"]</h1>
+        @if (User.Identity?.IsAuthenticated ?? false)
+        {
+            <p class="text-center text-black">Thank you for visiting Click&Buy! If you're done, you can safely log out below.</p>
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                <button type="submit" class="nav-link btn btn-link text-black">Click here to Logout</button>
+            </form>
+        }
+        else
+        {
+            <p>You have successfully logged out of the application.</p>
+        }
+    </div>
+</div>
+
+

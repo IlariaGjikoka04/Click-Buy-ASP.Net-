@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Click&amp;Buy1.props" />
+</Project>

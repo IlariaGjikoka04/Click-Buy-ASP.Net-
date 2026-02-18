@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Click&amp;Buy1.props" />
+</Project>

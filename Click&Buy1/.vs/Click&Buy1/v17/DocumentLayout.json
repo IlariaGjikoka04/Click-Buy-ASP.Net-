@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|c:\\users\\admin\\onedrive\\desktop\\web api.mvc\\click\u0026buy1\\click\u0026buy1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|solutionrelative:click\u0026buy1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|c:\\users\\admin\\onedrive\\desktop\\web api.mvc\\click\u0026buy1\\click\u0026buy1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|solutionrelative:click\u0026buy1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|c:\\users\\admin\\onedrive\\desktop\\web api.mvc\\click\u0026buy1\\click\u0026buy1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|solutionrelative:click\u0026buy1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|c:\\users\\admin\\onedrive\\desktop\\web api.mvc\\click\u0026buy1\\click\u0026buy1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|solutionrelative:click\u0026buy1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|c:\\users\\admin\\onedrive\\desktop\\web api.mvc\\click\u0026buy1\\click\u0026buy1\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|solutionrelative:click\u0026buy1\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|c:\\users\\admin\\onedrive\\desktop\\web api.mvc\\click\u0026buy1\\click\u0026buy1\\views\\shared\\_newlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|solutionrelative:click\u0026buy1\\views\\shared\\_newlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|c:\\users\\admin\\onedrive\\desktop\\web api.mvc\\click\u0026buy1\\click\u0026buy1\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8200A90-426F-4F71-99EE-1DCA8C0E643D}|Click\u0026Buy1\\Click\u0026Buy1.csproj|solutionrelative:click\u0026buy1\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Click\u0026Buy1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Click\u0026Buy1\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-28T14:50:56.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_NewLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Shared\\_NewLayout.cshtml",
+              "RelativeDocumentMoniker": "Click\u0026Buy1\\Views\\Shared\\_NewLayout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Shared\\_NewLayout.cshtml",
+              "RelativeToolTip": "Click\u0026Buy1\\Views\\Shared\\_NewLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T16:42:18.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Click\u0026Buy1\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Click\u0026Buy1\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T16:42:18.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Click\u0026Buy1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "Click\u0026Buy1\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T16:41:54.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Click\u0026Buy1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Click\u0026Buy1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T16:31:58.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Click\u0026Buy1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Click\u0026Buy1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T16:31:44.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Click\u0026Buy1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\WEB API.MVC\\Click\u0026Buy1\\Click\u0026Buy1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Click\u0026Buy1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:54:27.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

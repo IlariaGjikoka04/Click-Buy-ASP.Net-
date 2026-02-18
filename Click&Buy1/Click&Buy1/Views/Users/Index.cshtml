@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Click_Buy1.Models.AspNetUsersViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<h2>Users Menagment</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Emri</th>
+            <th>Email</th>
+            <th>Veprime</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>
+                    <a href="@Url.Action("Orders", "Users", new { email = user.Email })">
+                        @user.UserName
+                    </a>
+                </td>
+                <td>@user.Email</td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Edit", new { id = user.Id })">Modifiko</a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete", new { id = user.Id })">Fshi</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
